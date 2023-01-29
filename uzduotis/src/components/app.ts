@@ -4,8 +4,8 @@ import brands from '../data/brands';
 import Table from './table';
 import stringifyProps, { StringifyObjectProps } from "../helpers/stringify-object";
 import CarJoined from '../types/car-joined';
-import SelectField from './select-field';
-import CarForm, {Values} from './car-form';
+import SelectField from './select-fields';
+import CarForm, {Values} from './car-from';
 import CarsCollection, { CarProps } from '../helpers/cars-collection';
 
 class App {
